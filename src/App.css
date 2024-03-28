@@ -79,8 +79,10 @@ body {
 
 .account-data {
   background: #9E7499;
+  color: #ffffff;
   padding: 20px 7px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -100,14 +102,7 @@ body {
 .userPhoto {
   border-radius: 50%;
   width: 100px;
-  margin-right: 30px;
-}
-
-.name-email {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .user-icon {
