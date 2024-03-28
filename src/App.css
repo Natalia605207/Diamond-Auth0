@@ -23,6 +23,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 .flex, .options-box {
