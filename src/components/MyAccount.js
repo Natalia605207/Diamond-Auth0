@@ -21,8 +21,8 @@ const MyAccount = () => {
             <div className={active ? "account-data" : "close"}>
                 <img src={user.picture} alt="userPhoto" className="userPhoto" />
                 <div className="name-email">
-                <p className="profile"><span className="bold">Name:</span> {user.nickname}</p>
-                <p className="profile"><span className="bold">Email:</span> {user.email}</p>
+                <p className="profile">{user.nickname}</p>
+                <p className="profile">{user.email}</p>
                 </div>
             </div>
             </div>
